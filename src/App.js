@@ -1,10 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import About from './components/About';
+
+// import logo from './logo.svg';
+// import './App.css';
 
 function App() {
   return (
-    <div></div>
+    <div>
+      <main>
+        <About></About>
+      </main>
+    </div>
   );
 }
 
