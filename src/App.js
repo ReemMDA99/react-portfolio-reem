@@ -17,6 +17,7 @@ function App() {
 
   const [categories] = useState([
     { name: "About", description:"bcvxb"},
+    { name: "Projects", description:"bcvxb"},
     { name: "Contact", description:"cxvxcvcxv"},
     { name: "Resume", description:"xcvxcvxcvxcv"},
   ]);
