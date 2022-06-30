@@ -1,8 +1,11 @@
-// import all components
 import React, { useEffect, useState } from "react";
+// import all components
+
 import About from './components/About';
 import Navigation from "./components/Navigation";
+import Header from "./components/Header";
 // import logo from './logo.svg';
+// import style page
 import './App.css';
 
 function App() {
@@ -12,7 +15,7 @@ function App() {
 
   const [categories] = useState([
     { name: "About", description:"bcvxb"},
-    { name: "Project", description:"cvcxvc"},
+    // {name: "Navigation", description:"saretgf"},
     { name: "Contact", description:"cxvxcvcxv"},
     { name: "Resume", description:"xcvxcvxcvxcv"},
   ]);
@@ -26,6 +29,7 @@ function App() {
           setThisCategory={setThisCategory}>
         </header>
         {thisCategory === "About" && <About />}
+        {/* {thisCategory ==="Navigation" && <Navigation/>} */}
       </div>
       /* <div>
 				<main>{renderCategory()}</main>
