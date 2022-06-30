@@ -2,7 +2,8 @@
 	flex-wrap: wrap;
     flex-grow: 1;
 	justify-content: center;
-    margin: 8px;
+    margin: 2px;
+    background-color: rgb(226, 196, 255);
 
 }
 
@@ -26,8 +27,9 @@ h1 {
 
 }
 h2 {
-    font-size: 40px;
-    color: rgb(56, 4, 128);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: rgb(45, 0, 107);
 }
 
 img { 

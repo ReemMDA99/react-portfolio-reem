@@ -7,14 +7,10 @@ function Header(props) {
         <header>
             <h2>Reem's Portfolio</h2>
             <div>
-                <Navigation
-                    thisCategory={thisCategory} 
-                    setThisCategory={setThisCategory}>
-
-                </Navigation>
+                <Navigation thisCategory={thisCategory} setThisCategory={setThisCategory}></Navigation>
             </div>
         </header>
-    )
+    );
 }
 
 export default Header;

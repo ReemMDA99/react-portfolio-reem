@@ -1,6 +1,7 @@
 
 nav {
 	align-items: center;
+	background-color: rgba(201, 169, 250, 0.913);
 }
 nav ul {
 	display: flex;
