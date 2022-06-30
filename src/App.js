@@ -1,7 +1,7 @@
 // import all components
 import React, { useEffect, useState } from "react";
 import About from './components/About';
-
+import Navigation from "./components/Navigation";
 // import logo from './logo.svg';
 import './App.css';
 
@@ -19,12 +19,11 @@ function App() {
   const [thisCategory, setThisCategory] = useState("About");
   
   return (
-      <div className="app-header">
+      <div className="App">
         <header
           categories={categories}
           thisCategory= {thisCategory} 
           setThisCategory={setThisCategory}>
-
         </header>
         {thisCategory === "About" && <About />}
       </div>
