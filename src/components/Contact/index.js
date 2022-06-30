@@ -36,20 +36,20 @@ function ContactForm() {
     // console.log(formState);
     
     return (
-        <section>
-            <h1 data-testid="h1tag"> Contact me</h1>
-            <form id="contact-form" className="login-form flex-column border border-dark m-3 p-3" onSubmit={handleSubmit}>
+        <section className="d-flex align-items-center flex-column">
+            <h2>Contact Me</h2>
+            <form id="contact-form" className="login-form d-flex flex-column border border-dark m-3 p-3" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name"> Name: </label><br></br>
-                    <input type ="text" defaultValue={name} onBlur={handleChange} name="name"/>
+                    <input type ="text" defaultValue={name} onBlur={handleChange} name="name" className="float-right"/>
                 </div>
                 <div> 
                     <label htmlFor = "email"> Email address: </label><br></br>
-                    <input type="email" defaultValue={email} onBlur={handleChange} name = "email"  />
+                    <input type="email" defaultValue={email} onBlur={handleChange} name = "email" className="float-right"  />
                 </div>
                 <div>
                     <label htmlFor="message">Message:</label><br></br>
-                    <textarea name="message" defaultValue={message}  onBlur={handleChange} rows="5"/>
+                    <textarea name="message" defaultValue={message}  onBlur={handleChange} rows="5" className="float-right w-100"/>
                         {errorMessage && (
                             <div>
                                 <p className="error-text">{errorMessage}</p>

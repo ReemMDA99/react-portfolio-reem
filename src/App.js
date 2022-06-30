@@ -9,9 +9,9 @@ import About from './components/About';
 import Navigation from "./components/Navigation";
 import Header from "./components/Header";
 import Contact from "./components/Contact";
+import Resume from "./components/Resume";
 
 // Create App function for main page
-
 function App() {
   // Add useEffect to Hook the react title component
   useEffect(() => {
@@ -27,10 +27,10 @@ function App() {
 				return <About />;
 			// case "projects":
 			// 	return <Projects />;
+			case "resume":
+				return <Resume />;
 			case "contact":
 				return <Contact />;
-			// case "resume":
-			// 	return <Resume />;
 			default:
 				return null;
 		}
