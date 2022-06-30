@@ -1,0 +1,23 @@
+
+nav {
+	align-items: center;
+}
+nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	list-style: none;
+	justify-content: space-between;
+}
+nav ul li {
+	padding: 20px;
+	font-size: 30px;
+	color: var(--primary-color);
+}
+
+nav ul li:hover {
+	background-color: var(--primary-color);
+	color: black;
+	border-radius: 15px;
+	text-shadow: none;
+}
