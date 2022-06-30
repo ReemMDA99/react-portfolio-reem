@@ -12,12 +12,14 @@ nav ul {
 nav ul li {
 	padding: 20px;
 	font-size: 30px;
-	color: var(--primary-color);
+	color: rgb(56, 4, 128);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 nav ul li:hover {
 	background-color: var(--primary-color);
-	color: black;
+	color: rgb(255, 255, 255);
+    background-color: rgb(126, 88, 161);
 	border-radius: 15px;
 	text-shadow: none;
 }
