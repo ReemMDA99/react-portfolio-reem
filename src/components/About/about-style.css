@@ -2,9 +2,9 @@
 	flex-wrap: wrap;
     flex-grow: 1;
 	justify-content: center;
-    margin: 2px;
+    margin: 8px;
     background-color: rgb(226, 196, 255);
-
+    /* text-align: center; */
 }
 
 .photo-center {

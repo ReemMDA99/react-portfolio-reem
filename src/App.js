@@ -8,6 +8,7 @@ import './App.css'
 import About from './components/About';
 import Navigation from "./components/Navigation";
 import Header from "./components/Header";
+import Contact from "./components/Contact";
 
 // Create App function for main page
 
@@ -26,8 +27,8 @@ function App() {
 				return <About />;
 			// case "projects":
 			// 	return <Projects />;
-			// case "contact":
-			// 	return <Contact />;
+			case "contact":
+				return <Contact />;
 			// case "resume":
 			// 	return <Resume />;
 			default:

@@ -1,11 +1,7 @@
-header {
-	background: pink;
-	display: flex;
-	justify-content: space-between;
-	padding: 1rem;
-	text-align: center;
-}
-
-header a {
-	color: red;
+header h2 {
+  
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(121, 86, 193);
+    color: antiquewhite;
 }
