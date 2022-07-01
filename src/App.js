@@ -15,9 +15,9 @@ import Resume from "./components/Resume";
 function App() {
   // Add useEffect to Hook the react title component
   useEffect(() => {
-
 		document.title = "Reem Ahmed's Portfolio";
 	}, []);
+	
 	const [thisCategory, setThisCategory] = useState("about");
 
 	// create a function to check the category selected and then render selected category
@@ -41,11 +41,11 @@ function App() {
 			<div className="App">
 				<Header thisCategory={thisCategory} setThisCategory={setThisCategory}></Header>
 			</div>
-      <div>
-        <main>{renderCategory()}</main>
-      </div>
+     		<div>
+        		<main>{renderCategory()}</main>
+      		</div>
   
-    </div>
+    	</div>
   );
 	
 }

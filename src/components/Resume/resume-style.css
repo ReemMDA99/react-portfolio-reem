@@ -1,3 +1,14 @@
-.button{
+a .button {
+    /* width: 55%; */
+    border: 0;
+	border-radius: 10px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+    align-items: center;
+	margin-bottom: 30px;
+	padding: 10px 15px;
+    background-color: rgb(121, 86, 193);
     
 }
