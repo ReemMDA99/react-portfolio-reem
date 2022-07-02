@@ -14,7 +14,7 @@ import Header from "./components/Header";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 import Footer from "./components/Footer";
-
+import Projects from "./components/Projects"
 // Create App function for main page
 function App() {
   // Add useEffect to Hook the react title component
@@ -29,8 +29,8 @@ function App() {
 		switch (thisCategory) {
 			case "about":
 				return <About />;
-			// case "projects":
-			// 	return <Projects />;
+			case "projects":
+				return <Projects />;
 			case "resume":
 				return <Resume />;
 			case "contact":

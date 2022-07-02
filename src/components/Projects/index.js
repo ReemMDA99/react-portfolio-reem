@@ -1,9 +1,8 @@
-import React from "react";
+import React, { useState, useEffect} from "react";
 import "./projects-style.css";
 
-const Projects= () => {
-    return();
-
+function Projects() {
+     return();
 }
 
 export default Projects;
