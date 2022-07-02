@@ -4,6 +4,8 @@ import React, { useEffect, useState } from "react";
 // import style page
 import './App.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// react-router-hash-link
+
 
 // import all components
 import About from './components/About';

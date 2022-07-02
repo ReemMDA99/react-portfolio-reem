@@ -46,6 +46,19 @@ header {
   color: #61dafb;
 }
 
+Footer {
+  background-color:  rgb(121, 86, 193);
+  min-height: 14vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-between;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

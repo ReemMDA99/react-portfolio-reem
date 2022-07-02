@@ -1,0 +1,23 @@
+
+footer {
+    background-color:rgb(121, 86, 193);
+    min-height: 14vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-evenly;
+    font-size: calc(10px + 2vmin);
+    
+} 
+
+i {
+    font-size: 30px;
+    padding: 15px;
+    color:rgb(255, 255, 255);
+    
+}
+
+i:hover {
+    color: #a771f2;
+}
