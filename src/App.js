@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 
 // import style page
 import './App.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 // import all components
 import About from './components/About';
@@ -10,6 +11,7 @@ import Navigation from "./components/Navigation";
 import Header from "./components/Header";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
+import Footer from "./components/Footer";
 
 // Create App function for main page
 function App() {
@@ -44,6 +46,9 @@ function App() {
      		<div>
         		<main>{renderCategory()}</main>
       		</div>
+			<div>
+				<Footer></Footer>
+			</div>
   
     	</div>
   );
