@@ -19,7 +19,10 @@ const Footer = () => {
                 <i class="fa fa-stack-overflow" />
             </a>
             <a target="_blank" rel="noopener noreferrer" href="src\assets\files\resume-gif.gif">
-                <i class="fas fa-file-pdf"></i>
+                <i class="fa fa-file-pdf"></i>
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="mailto:reem.mda0909@gmail.com">
+                <i class="fas fa-envelope"></i>
             </a>
         </footer>
 

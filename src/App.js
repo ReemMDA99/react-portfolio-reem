@@ -29,8 +29,8 @@ function App() {
 		switch (thisCategory) {
 			case "about":
 				return <About />;
-			case "projects":
-				return <Projects />;
+			// case "projects":
+			// 	return <Projects />;
 			case "resume":
 				return <Resume />;
 			case "contact":
