@@ -12,8 +12,23 @@ function Projects() {
         ).then((data) => setProjects(data)
         );
     }, []);
+    // if not the project then return the html response 
+    // if (!repos) return <div> Please Wait...</div>;
     
-    // return();
+    return(
+        <section>
+            <h1>My Projects</h1>
+            <ul>
+                {
+                    projects.map((projects, id) => (
+                        <a href = {projects.html_url}>
+                            <div> key= {id}</div>
+                        </a>
+                    ))
+                }
+            </ul>
+        </section>
+    );
 }
 
 export default Projects;
