@@ -38,7 +38,7 @@ function About() {
 					mobile-first design and development.
         </p>
         
-        <h2 className= "mt-5"> Technical Skills</h2>
+        {/* <h2 className= "mt-5"> Technical Skills</h2>
         <div className="content">
           <li> Html5</li>
           <li> CSS3</li>
@@ -60,7 +60,7 @@ function About() {
           <li> Sequelize</li>
           <li> Handlebars</li>
           <li>OOP</li>
-        </div>
+        </div> */}
       </div>
     </section>
   
