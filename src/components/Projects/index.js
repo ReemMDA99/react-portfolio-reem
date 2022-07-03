@@ -13,7 +13,7 @@ function Projects() {
         );
     }, []);
     // if not the project then return the html response 
-    // if (!repos) return <div> Please Wait...</div>;
+    if (!projects) return <div> Please Wait...</div>;
     
     return(
         <section>
@@ -22,7 +22,17 @@ function Projects() {
                 {
                     projects.map((projects, id) => (
                         <a href = {projects.html_url}>
-                            <div> key= {id}</div>
+                            <div key= {id}>
+                                <div className="profiles">
+                                    <img className="border-bottom border-dark"
+                                    src={`https://raw.githubusercontent.com/ReemMDA99/${projects.name}/main/preview/screenshot.jpg`}
+                                    alt={`${projects.name} `}/>
+                                <div className= "profile-name">
+                                    <h4>{projects.name}</h4>
+                                    <p>{projects.description}</p>
+                                </div>
+                                </div>
+                            </div>
                         </a>
                     ))
                 }
@@ -30,5 +40,6 @@ function Projects() {
         </section>
     );
 }
+
 
 export default Projects;
