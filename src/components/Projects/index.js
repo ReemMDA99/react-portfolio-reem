@@ -14,8 +14,8 @@ const Projects = () => {
                                 
                             {/* Import image */}
                             <div className="screenshot">
-                                <img src={`${process.env.PUBLIC_URL}/assets/images/budget-tracker.png`}
-                                 className="d-flex align-self-center"
+                                <img src={`${process.env.PUBLIC_URL}/assets/images/budget-tracker.png`} 
+                                className="d-flex align-self-center"
                                     alt="Budget Tracker" />
                             </div>
                             <div className="card-body mb-5 pl-0">

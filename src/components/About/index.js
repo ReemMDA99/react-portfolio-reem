@@ -38,29 +38,6 @@ function About() {
 					mobile-first design and development.
         </p>
         
-        {/* <h2 className= "mt-5"> Technical Skills</h2>
-        <div className="content">
-          <li> Html5</li>
-          <li> CSS3</li>
-          <li> JavaScript</li>
-          <li> APIs</li>
-          <li> jQuery</li>
-          <li> Node.js</li>
-          <li> Express.js</li>
-          <li> React.js</li>
-          <li> Bootstrap</li>
-          <li> MySQL</li>
-          <li> MongoDB</li>
-          <li> Mongoose</li>
-          <li> Heroku</li>
-          <li> Web Packs</li>
-          <li> GitHub</li>
-          <li> DevTools</li>
-          <li> Git</li>
-          <li> Sequelize</li>
-          <li> Handlebars</li>
-          <li>OOP</li>
-        </div> */}
       </div>
     </section>
   

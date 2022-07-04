@@ -3,20 +3,12 @@ import './nav-style.css';
 
 function Navigation (props){
     const{
-    categories,
 	thisCategory,
     setThisCategory
     } = props;
 
     return(
         <nav className="m-3">
-			{/* <ul>
-				{categories.map((category, id) => (
-					<li key={id} onClick={() => {setThisCategory(category.name);}}>
-					    {category.name}
-					</li>
-				))}
-			</ul> */}
 			<ul className="flex-row mobile-view">
 				<li className={thisCategory === "about" ? "mx-2 navActive" : "mx-2"}>
 					<span onClick={() => setThisCategory("about")}>About</span>
