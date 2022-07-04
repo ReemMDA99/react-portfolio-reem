@@ -6,7 +6,7 @@ const Projects = () => {
         <div className="container" id="repo">
             <div className="row justify-description-center">
             {/* Project 1 BudgetTracker */}
-
+                
                 <div className="col-xs-12 col-sm-12 col-lg-4 mb-4">
                     <div className="card border border-dark shadow-lg p-3 mb-5 rounded text-center h-100">
                         
@@ -14,7 +14,8 @@ const Projects = () => {
                                 
                             {/* Import image */}
                             <div className="screenshot">
-                                <img src={`${process.env.PUBLIC_URL}/assets/images/budget-tracker.png`} className="card-img-top border-bottom"
+                                <img src={`${process.env.PUBLIC_URL}/assets/images/budget-tracker.png`}
+                                 className="d-flex align-self-center"
                                     alt="Budget Tracker" />
                             </div>
                             <div className="card-body mb-5 pl-0">
