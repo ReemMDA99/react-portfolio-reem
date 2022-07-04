@@ -62,11 +62,17 @@ function ContactForm() {
             <div id="contact-me">
 				<ul>
 					<div className="my-contact">
-						<p>Contact Number: (647) 505-0906</p>
-						<p>Email: reem.mda0909@gmail.com</p>
+						<p>Contact Number: (647) 505-0906 
+            <i class="fa fa-phone"></i>
+            </p>
+						<p>Email: reem.mda0909@gmail.com 
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            </p>
 						<p>
 							GitHub:{" "}
-							<a href="https://github.com/ReemMDA99">ReemMDA99</a>
+							<a href="https://github.com/ReemMDA99">
+                <i className="fab fa-github"></i>
+              </a>
 						</p>
 					</div>
 				</ul>
