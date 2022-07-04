@@ -1,45 +1,45 @@
-.section-title {
-	margin: 5vh;
-	font-size: 50px;
+
+main{
+	background-image: url("../../../preview/background1.gif");
+	background-repeat: repeat;
+}
+#repo {
+    flex-grow: 1;
 }
 
-.my-work ul {
-	width: 100%;
+#repo h3 {
+    font-size: 36px;
+	align-items: center;
+    font-family:'Times New Roman', Times, serif;
+    color: #520095;
+    padding-left: 17px!important;
 }
 
-.my-work a,
-a:link,
-a:visited {
-	text-decoration: none;
-	color: inherit;
+#i:hover {
+    color: #a42ee86f;
 }
 
-.project-name {
-	color: black;
-	margin: 0 0 0 -5px;
-	padding: 0 10px;
-	padding-bottom: 10px;
+#repo .card {
+    background-color: hsl(275, 82%, 89%);
+    border: 0;
+    border-radius: 8px;
+   
+}
+/* img {
+	height: 140px;
+	width: 30px;
+} */
+.card-title,
+.card-text {
+    padding-left: 1.25rem;
 }
 
-.project-name h4 {
-	text-decoration: underline;
-	font-size: 25px;
-	margin: 10px;
-}
+i{
+	color: rgb(32, 0, 63);
+	
 
-.project-name p {
-	font-size: 20px;
-	margin: 10px;
 }
-
-.project img {
-	width: 40vw;
-	height: 40vh;
-}
-
-@media screen and (max-width: 980px) {
-	.project img {
-		width: 90vw;
-		height: 40vh;
-	}
+.url {
+    bottom: 0;
+	margin-bottom: 0px;
 }
